@@ -1,9 +1,6 @@
-## Connect to server using port forwarding
 
-1. `ssh -L
+# Install and setup Anaconda/Miniconda and Jupyter
 
-
-# Download Anaconda or Miniconda
 1. Connect to server using port forwarding (neccessary for running a jupyter server later)
    ```
    # Note that port number is of your choice I just decided to use 8989
@@ -131,6 +128,9 @@ If you only need to open the port to connect to the jupyter server:
    `ssh -NfL 8989:localhost:8989 username@hostname`
 2. Mantain visible in console
    `ssh -NL 8989:localhost:8989 username@hostname`
+   
+# Extra commands
+   
 ## Set of useful conda commands
 
 + Activate/Deactivate automatic initialization of conda environment:  
